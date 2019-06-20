@@ -20,7 +20,7 @@
     <guava.version>26.0-jre</guava.version>
     <guice.version>4.2.1</guice.version>
     <jersey.version>1.19.4</jersey.version>
-    <jackson.version>2.9.7</jackson.version>
+    <jackson.version>2.9.9</jackson.version>
     <servlet.version>4.0.1</servlet.version>
     <junit.version>4.12</junit.version>
     <mockito.version>2.15.0</mockito.version>
@@ -158,6 +158,12 @@
       <groupId>com.google.truth</groupId>
       <artifactId>truth</artifactId>
       <version>${truth.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.inject.extensions</groupId>
+      <artifactId>guice-testlib</artifactId>
+      <version>${guice.version}</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
