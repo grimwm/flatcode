@@ -1,4 +1,4 @@
-package org.flatcode.guice;
+package org.flatcode.common;
 
 import com.google.api.client.http.HttpRequestFactory;
 import com.google.api.client.http.javanet.NetHttpTransport;
